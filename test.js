@@ -1,5 +1,5 @@
 console.log("Hello World");
-console.log(999+111);
+console.log(999 + 111);
 console.log("999" + "111");
 console.log(typeof ("999"));
 console.log(typeof (999));
@@ -11,15 +11,15 @@ console.log(String(999));
 let a = 10;
 console.log(a);
 a = 11;
-console. log(a);
+console.log(a);
 const pi = 3.14159;
 console.log(pi);
 // pi = 3;
 // console.log(pi);
 let b = 100;
 console.log(b);
-// let b = 200;//this is an error
-// should not redeclare let variable
+// let b = 200;//this is an error 
+//should not redeclare let variable
 b = 200;
 console.log(b);
 // find number is odd or even
@@ -30,10 +30,10 @@ if (num%2 == 0){
 else{
     console.log("odd")
 }
-// find theh number is positive or negative or zero
+// find the number is postive or negative or zero
 let num1=10;
-if (num1>0){
-    console.log("positive")
+if(num1>0){
+    console.log("postive")
 }
 else if(num1<0){
     console.log("negative")
@@ -53,13 +53,13 @@ while(i<10){
     i++
 }
 i = 5;
-console.log("doehile")
+console.log("dowhile")
 do{
     console.log(i)
     i++
 }while(i<10)
 
-    function add(a,b){
-        return a+b
+function add(a,b){
+    return a+b
 }
 console.log(add(10,20))
